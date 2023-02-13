@@ -1,0 +1,499 @@
+/* Common */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  background-color: #f3fafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #404041;
+}
+
+.menu {
+  font-size: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 0.01em;
+}
+
+.menu a {
+  padding: 1rem;
+  display: block;
+}
+
+.logo-img {
+  width: 83px;
+  padding-top: 1rem;
+}
+
+/* Header */
+
+header {
+  margin: 0.5rem 0;
+}
+
+.bag-wrap {
+  padding: 1rem;
+  border: 1px solid #dfdfdf;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.bag {
+  width: 14px;
+}
+
+/* Main */
+
+/* Banking */
+
+.banking-text {
+  max-width: 18rem;
+  font-size: 1.1rem;
+  color: #535354;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.banking-title {
+  font-size: 5rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+  margin-top: 5rem;
+}
+
+.banking {
+  width: 40%;
+}
+
+.visa-card {
+  display: flex;
+  width: 60%;
+}
+
+.visa-card img {
+  max-width: 100%;
+}
+
+.more-wrap {
+  border: 3px solid #ff8a1f;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+
+.banking-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-wrap {
+  background-color: #000000;
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.deals-block {
+  width: 25%;
+  padding: 1rem 1rem 0 0;
+  margin: 2rem 2rem 3rem 0;
+}
+
+.deals-img {
+  margin-bottom: 1rem;
+  width: 2rem;
+}
+
+.deals-title-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.deals-hot-title {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+}
+
+.deals-title {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.deals-text {
+  font-weight: 400;
+  color: #767e7e;
+  letter-spacing: 0.02rem;
+  line-height: 1.6rem;
+}
+
+/* Social */
+
+.social {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  background: #52c0ff40;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.half-circle {
+  width: 70px;
+  height: 35px;
+  background-color: #45b3f2;
+  border-radius: 35px 35px 0 0;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+}
+
+.half-circle-2 {
+  transform: rotate(-90deg);
+  top: calc(-35px / 2);
+  left: calc(50% - 18px);
+}
+
+.social-block {
+  max-width: 265px;
+}
+
+.social-title {
+  font-size: 1.8rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.social-text {
+  font-weight: 400;
+  color: #767e7e;
+  letter-spacing: 0.02em;
+  line-height: 1.5rem;
+}
+
+/* Customer */
+
+.customer-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.customer-info {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.customer-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.customer-text {
+  line-height: 2rem;
+  color: #718176;
+  margin-bottom: 6rem;
+}
+
+.customer-advantages {
+  display: flex;
+  flex-wrap: wrap;
+  border-width: 1px 0;
+  border-image: linear-gradient(to right, #909c92, #f3fafe) 0.8;
+  border-style: solid;
+}
+
+.customer-advantages-item {
+  width: calc(25% - 1px);
+  border-right: 1px solid #909c92;
+  padding: 3rem 0;
+  font-size: 1.2rem;
+}
+
+.customer-advantages-item:last-child {
+  border: none;
+}
+
+.customer-advantages-item div {
+  color: #718176;
+  margin-bottom: 1rem;
+}
+
+.customer-advantages-item span {
+  font-weight: bold;
+}
+
+/* Custom */
+
+.custom-img {
+  width: 55%;
+}
+
+.custom-img img {
+  max-width: 100%;
+}
+
+.custom-info-title {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-size: 3.2rem;
+  padding-bottom: 1.5rem;
+}
+
+.custom-title {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.custom-info-text {
+  font-weight: 400;
+  color: #767e7e;
+  letter-spacing: 0.02em;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.custom-info {
+  width: 45%;
+}
+
+.custom-item {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.custom-mark-wrap {
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.custom-mark-decor {
+  width: 30px;
+}
+
+.custom-group {
+  margin-left: 3rem;
+}
+
+/* Newsletter */
+
+.newsletter {
+  background: #41b3f4;
+  margin-top: 5rem;
+}
+
+.newsletter-updated {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  max-width: 105px;
+  line-height: 2rem;
+}
+
+.newsletter-updated span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.01em;
+  color: #414449;
+}
+
+.newsletter-updated img {
+  padding-top: 2rem;
+}
+
+.newsletter-subscribe {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter-subscribe-text {
+  font-size: 3.7rem;
+  font-weight: 700;
+  font-family: "Bai Jamjuree", sans-serif;
+  max-width: 500px;
+}
+
+.newsletter-subscribe-text span {
+  padding-left: 4rem;
+  display: block;
+  border-left: 8px solid #718176;
+}
+
+.newsletter-subscribe-button {
+  background-color: #e15c19;
+  border: none;
+  color: #ffffff;
+  padding: 21px 44px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: calc(4rem + 8px);
+}
+
+.newsletter-card {
+  padding: 5rem 0;
+  margin-left: auto;
+}
+
+/* Footer */
+
+footer {
+  padding: 5rem 0 1.5rem;
+}
+
+.copyright {
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+  color: #1b1b1b59;
+  margin-top: 2.5rem;
+  display: flex;
+}
+
+.copyright-text:last-child {
+  text-align: right;
+}
+
+.hr-decor {
+  text-align: center;
+  color: #565b58;
+  width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Common  */
+  .container {
+    max-width: 870px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Common  */
+
+  body {
+    margin: 0 auto;
+  }
+
+  header .container {
+    display: flex;
+  }
+
+  .banking-wrapper .container {
+    display: block;
+  }
+
+  .banking,
+  .visa-card,
+  .custom-img,
+  .custom-info {
+    width: 100%;
+  }
+
+  .container {
+    max-width: none;
+    flex-wrap: wrap;
+  }
+
+  .deals-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .custom-wrapper .container {
+    display: block;
+  }
+
+  .custom-items-wrapper {
+    display: flex;
+  }
+
+  .custom-items-wrapper .custom-item {
+    width: 50%;
+  }
+
+  .social {
+    text-align: center;
+  }
+
+  .newsletter-updated {
+    display: none;
+  }
+
+  .newsletter .container {
+    flex-wrap: nowrap;
+  }
+
+  .newsletter-subscribe {
+    margin: 0;
+  }
+}
